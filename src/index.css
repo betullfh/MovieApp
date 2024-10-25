@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Diğer stil tanımlamalarınızı buraya ekleyebilirsiniz */
+
+body{
+    margin: 0;
+    padding: 0;
+}

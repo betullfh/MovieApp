@@ -1,0 +1,118 @@
+.register-login
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #0e3057;
+    background-image: url("../images/whattowatch.png");
+    background-position: left top; /* Sol üst köşeye hizalama */
+    background-repeat:no-repeat; /* Tekrar etmeyi engelle */
+    background-size: auto 100%;
+    
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:end;
+    height: 100vh;
+    padding: 0px 300px;
+    border-radius: 5px;
+}
+
+.login-register-title
+{
+    font-size: 24px; 
+    text-align: center;
+    width: 200px;
+    margin-bottom: 30px;
+    color: rgb(187, 198, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.register-form
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border: 1px solid rgb(80, 141, 232);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #1f6ac1;
+    background-color: rgb(108, 150, 214);
+    padding: 20px 50px 50px 50px;
+
+}
+
+.form-input
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputs
+{
+  
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-button
+{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form-google
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+
+.login-p
+{
+    color: rgb(12, 12, 206);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.login-choice
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.login-p:active
+{
+   
+    transition: 0.6s;
+    color: rgb(248, 249, 250);
+}
+
+.to-login
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
